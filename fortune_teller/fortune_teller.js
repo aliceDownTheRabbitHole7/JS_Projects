@@ -6,7 +6,7 @@ const superHeroes = [
     {
         "name": "Iron Man",
         "alias": "Tony Stark",
-        "origin": "Created a mechanized armor to escape capture."
+        "origin": "Created a mechanized armor to escape capture from terrorist group."
     },
     {
         "name": "Spider-Man",
@@ -84,11 +84,11 @@ if (color == "red" || color == "green") {
             console.log("You are " + superHeroes[2].name + "!");
             console.log("Alias: " + superHeroes[2].alias);
             console.log("Origin: " + superHeroes[2].origin);
-        } else if (number2 = '4') {
+        } else if (number2 == '4') {
             console.log("You are " + superHeroes[3].name + "!");
             console.log("Alias: " + superHeroes[3].alias);
             console.log("Origin: " + superHeroes[3].origin);
-        } else if (number2 = '7') {
+        } else if (number2 == '7') {
             console.log("You are " + superHeroes[6].name + "!");
             console.log("Alias: " + superHeroes[6].alias);
             console.log("Origin: " + superHeroes[6].origin);
@@ -114,11 +114,11 @@ if (color == "red" || color == "green") {
             console.log("You are " + superHeroes[0].name + "!");
             console.log("Alias: " + superHeroes[0].alias);
             console.log("Origin: " + superHeroes[0].origin);
-        } else if (number2 = '2') {
+        } else if (number2 == '2') {
             console.log("You are " + superHeroes[1].name + "!");
             console.log("Alias: " + superHeroes[1].alias);
             console.log("Origin: " + superHeroes[1].origin);
-        } else if (number2 = '5') {
+        } else if (number2 == '5') {
             console.log("You are " + superHeroes[4].name + "!");
             console.log("Alias: " + superHeroes[4].alias);
             console.log("Origin: " + superHeroes[4].origin);
@@ -155,20 +155,18 @@ if (color == "red" || color == "green") {
             console.log("You are " + superHeroes[0].name + "!");
             console.log("Alias: " + superHeroes[0].alias);
             console.log("Origin: " + superHeroes[0].origin);
-        } else if (number2 = '2') {
+        } else if (number2 == '2') {
             console.log("You are " + superHeroes[1].name + "!");
             console.log("Alias: " + superHeroes[1].alias);
             console.log("Origin: " + superHeroes[1].origin);
-        } else if (number2 = '5') {
+        } else if (number2 == '5') {
             console.log("You are " + superHeroes[4].name + "!");
             console.log("Alias: " + superHeroes[4].alias);
             console.log("Origin: " + superHeroes[4].origin);
-        } else if (number2 = '6') {
+        } else {
             console.log("You are " + superHeroes[5].name + "!");
             console.log("Alias: " + superHeroes[5].alias);
             console.log("Origin: " + superHeroes[5].origin);
-        } else {
-            console.log('Went wrong somewhere')
         }
     }
 
@@ -188,20 +186,18 @@ if (color == "red" || color == "green") {
             console.log("You are " + superHeroes[2].name + "!");
             console.log("Alias: " + superHeroes[2].alias);
             console.log("Origin: " + superHeroes[2].origin);
-        } else if (number2 = '4') {
+        } else if (number2 == '4') {
             console.log("You are " + superHeroes[3].name + "!");
             console.log("Alias: " + superHeroes[3].alias);
             console.log("Origin: " + superHeroes[3].origin);
-        } else if (number2 = '7') {
+        } else if (number2 == '7') {
             console.log("You are " + superHeroes[6].name + "!");
             console.log("Alias: " + superHeroes[6].alias);
             console.log("Origin: " + superHeroes[6].origin);
-        } else if (number2 = '8') {
+        } else {
             console.log("You are " + superHeroes[7].name + "!");
             console.log("Alias: " + superHeroes[7].alias);
             console.log("Origin: " + superHeroes[7].origin);
-        } else {
-            console.log('Went wrong somewhere')
         }
     }
 }
