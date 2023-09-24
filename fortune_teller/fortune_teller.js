@@ -1,13 +1,49 @@
 const prompt = require("prompt-sync")();
 
-const one = "Iron Man";
-const two = "Spider-Man";
-const three = "Scarlet Witch";
-const four = "Black Widow";
-const five = "Batman";
-const six = "Wonder Woman";
-const seven = "Super Man";
-const eight = "Green Lantern";
+// Super hero bank
+
+const superHeroes = [
+    {
+        "name": "Iron Man",
+        "alias": "Tony Stark",
+        "origin": "Created a mechanized armor to escape capture."
+    },
+    {
+        "name": "Spider-Man",
+        "alias": "Peter Parker",
+        "origin": "Bit by a radioactive spider."
+    },
+    {
+        "name": "Scarlet Witch",
+        "alias": "Wanda Maximoff",
+        "origin": "Born a mutant, daughter of Magneto."
+    },
+    {
+        "name": "Black Widow",
+        "alias": "Natasha Romanoff",
+        "origin": "Trained elite assassin."
+    },
+    {
+        "name": "Batman",
+        "alias": "Bruce Wayne",
+        "origin": "Becomes hero after tragic murder of parents at a young age."
+    },
+    {
+        "name": "Wonder Woman",
+        "alias": "Diana Prince",
+        "origin": "Amazoness warrior with powers given by the Greek gods"
+    },
+    {
+        "name": "Super Man",
+        "alias": "Clark Kent",
+        "origin": "Alien with god-like strength, speed, and flight."
+    },
+    {
+        "name": "Green Lantern",
+        "alias": "Hal Jordan",
+        "origin": "Former military pilot, turned hero after cosmic ring was bestowed upon him."
+    }
+];
 
 var color;
 var number;
@@ -45,17 +81,23 @@ if (color == "red" || color == "green") {
         // Give fortune depending on user's choice
 
         if (number2 == "3") {
-            console.log("You are " + three + "!")
+            console.log("You are " + superHeroes[2].name + "!");
+            console.log("Alias: " + superHeroes[2].alias);
+            console.log("Origin: " + superHeroes[2].origin);
         } else if (number2 = '4') {
-            console.log("You are " + four + "!")
+            console.log("You are " + superHeroes[3].name + "!");
+            console.log("Alias: " + superHeroes[3].alias);
+            console.log("Origin: " + superHeroes[3].origin);
         } else if (number2 = '7') {
-            console.log("You are " + seven + "!")
-        } else if (number2 = '8') {
-            console.log("You are " + eight + "!")
+            console.log("You are " + superHeroes[6].name + "!");
+            console.log("Alias: " + superHeroes[6].alias);
+            console.log("Origin: " + superHeroes[6].origin);
         } else {
-            console.log('Went wrong somewhere')
-        }
-       
+            console.log("You are " + superHeroes[7].name + "!");
+            console.log("Alias: " + superHeroes[7].alias);
+            console.log("Origin: " + superHeroes[7].origin);
+        } 
+
     // If user chose 2 or 6, ask for second number and loop if user does not choose listed number
 
     } else {
@@ -69,15 +111,21 @@ if (color == "red" || color == "green") {
         // Give fortune depending on user's choice
 
         if (number2 == "1") {
-            console.log("You are " + one + "!")
+            console.log("You are " + superHeroes[0].name + "!");
+            console.log("Alias: " + superHeroes[0].alias);
+            console.log("Origin: " + superHeroes[0].origin);
         } else if (number2 = '2') {
-            console.log("You are " + two + "!")
+            console.log("You are " + superHeroes[1].name + "!");
+            console.log("Alias: " + superHeroes[1].alias);
+            console.log("Origin: " + superHeroes[1].origin);
         } else if (number2 = '5') {
-            console.log("You are " + five + "!")
-        } else if (number2 = '6') {
-            console.log("You are " + six + "!")
+            console.log("You are " + superHeroes[4].name + "!");
+            console.log("Alias: " + superHeroes[4].alias);
+            console.log("Origin: " + superHeroes[4].origin);
         } else {
-            console.log('Went wrong somewhere')
+            console.log("You are " + superHeroes[5].name + "!");
+            console.log("Alias: " + superHeroes[5].alias);
+            console.log("Origin: " + superHeroes[5].origin);
         }
     }
 
@@ -104,13 +152,21 @@ if (color == "red" || color == "green") {
         // Give fortune depending on user's choice
 
         if (number2 == "1") {
-            console.log("You are " + one + "!")
+            console.log("You are " + superHeroes[0].name + "!");
+            console.log("Alias: " + superHeroes[0].alias);
+            console.log("Origin: " + superHeroes[0].origin);
         } else if (number2 = '2') {
-            console.log("You are " + two + "!")
+            console.log("You are " + superHeroes[1].name + "!");
+            console.log("Alias: " + superHeroes[1].alias);
+            console.log("Origin: " + superHeroes[1].origin);
         } else if (number2 = '5') {
-            console.log("You are " + five + "!")
+            console.log("You are " + superHeroes[4].name + "!");
+            console.log("Alias: " + superHeroes[4].alias);
+            console.log("Origin: " + superHeroes[4].origin);
         } else if (number2 = '6') {
-            console.log("You are " + six + "!")
+            console.log("You are " + superHeroes[5].name + "!");
+            console.log("Alias: " + superHeroes[5].alias);
+            console.log("Origin: " + superHeroes[5].origin);
         } else {
             console.log('Went wrong somewhere')
         }
@@ -129,13 +185,21 @@ if (color == "red" || color == "green") {
         // Give fortune depending on user's choice
 
         if (number2 == "3") {
-            console.log("You are " + three + "!")
+            console.log("You are " + superHeroes[2].name + "!");
+            console.log("Alias: " + superHeroes[2].alias);
+            console.log("Origin: " + superHeroes[2].origin);
         } else if (number2 = '4') {
-            console.log("You are " + four + "!")
+            console.log("You are " + superHeroes[3].name + "!");
+            console.log("Alias: " + superHeroes[3].alias);
+            console.log("Origin: " + superHeroes[3].origin);
         } else if (number2 = '7') {
-            console.log("You are " + seven + "!")
+            console.log("You are " + superHeroes[6].name + "!");
+            console.log("Alias: " + superHeroes[6].alias);
+            console.log("Origin: " + superHeroes[6].origin);
         } else if (number2 = '8') {
-            console.log("You are " + eight + "!")
+            console.log("You are " + superHeroes[7].name + "!");
+            console.log("Alias: " + superHeroes[7].alias);
+            console.log("Origin: " + superHeroes[7].origin);
         } else {
             console.log('Went wrong somewhere')
         }
